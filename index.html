@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UHHSS Tournament</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="UHHSS.png" alt="UHHSS Tournament Logo" id="tournament-logo">
+    <button id="admin-btn">Admin</button>
+  </header>
+
+  <main>
+    <section class="group-stage">
+      <h2>Group Stage</h2>
+
+      <div class="group">
+        <h3>Group A</h3>
+        <table>
+          <thead>
+            <tr><th>Team</th><th>Played</th><th>Won</th><th>Lost</th><th>Points</th></tr>
+          </thead>
+          <tbody id="groupA">
+            <tr><td>Team A1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><td>Team A2</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><td>Team A3</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><td>Team A4</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="group">
+        <h3>Group B</h3>
+        <table>
+          <thead>
+            <tr><th>Team</th><th>Played</th><th>Won</th><th>Lost</th><th>Points</th></tr>
+          </thead>
+          <tbody id="groupB">
+            <tr><td>Team B1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><td>Team B2</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><td>Team B3</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><td>Team B4</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="group">
+        <h3>Group C</h3>
+        <table>
+          <thead>
+            <tr><th>Team</th><th>Played</th><th>Won</th><th>Lost</th><th>Points</th></tr>
+          </thead>
+          <tbody id="groupC">
+            <tr><td>Team C1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><td>Team C2</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><td>Team C3</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><td>Team C4</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="group">
+        <h3>Group D</h3>
+        <table>
+          <thead>
+            <tr><th>Team</th><th>Played</th><th>Won</th><th>Lost</th><th>Points</th></tr>
+          </thead>
+          <tbody id="groupD">
+            <tr><td>Team D1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><td>Team D2</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><td>Team D3</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><td>Team D4</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="knockout-stage">
+      <h2>Knockout Stage</h2>
+      <div class="match">
+        <span>Winner Group A</span> vs <span>Runner Group B</span> — 
+        <span class="score" contenteditable="false">0 – 0</span>
+      </div>
+      <div class="match">
+        <span>Winner Group B</span> vs <span>Runner Group A</span> — 
+        <span class="score" contenteditable="false">0 – 0</span>
+      </div>
+      <div class="match">
+        <span>Winner Group C</span> vs <span>Runner Group D</span> — 
+        <span class="score" contenteditable="false">0 – 0</span>
+      </div>
+      <div class="match">
+        <span>Winner Group D</span> vs <span>Runner Group C</span> — 
+        <span class="score" contenteditable="false">0 – 0</span>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <h2>...</h2>
+      <div class="photo-grid">
+        <img src="UHHSS.png" alt="logo" class="hover-zoom">
+        <img src="ronaldo1.jpg" alt="Player" class="hover-zoom">
+        <img src="ronaldo2.jpeg" alt="Player" class="hover-zoom">
+        <img src="pes.jpeg" alt="Player" class="hover-zoom">
+        <img src="messi1.jpg" alt="Player" class="hover-zoom">
+        <img src="messi2.jpg" alt="Logo" class="hover-zoom">
+        <img src="UHHSS.png" alt="logo" class="hover-zoom">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 UHHSS Tournament | Designed by Nizal Dhani PT</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
